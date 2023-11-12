@@ -3,12 +3,25 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <script src="game_Functions/gameFunction.js"></script>
+        <title>Game Examination</title>
     </head>
     <header>
         
     </header>
     <body>
-        <h1>Username: </h1>
-        <input type="text">
+        <app-root class="h-100 w-100 align-items-center"></app-root>
     </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
+        <div class="headerdiv">
+            <app-hsbc-header-bar>Test Game Examination</app-hsbc-header-bar>
+        </div>
+
+        <div class="contentdiv">
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+        </div>
+        <footer class="footerdiv">
+            <app-application-footer>Group Members</app-application-footer>
+        </footer>
 </html>

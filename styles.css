@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    min-height: 100%;
+  }
+
+  .headerdiv {
+    margin-top: 0px;
+    height: 60px;
+    min-height: 60px;
+  }
+  
+  .contentdiv {
+    position: relative;
+    overflow: scroll;
+    min-height: 91%;
+  }
+  
+  .footerdiv {
+    position: relative;
+    color: white;
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 20px;
+    min-height: 20px;
+    width: 100%;
+    background-color: darkblue;
+  }
