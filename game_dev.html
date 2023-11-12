@@ -5,23 +5,51 @@
         <script src="game_Functions/gameFunction.js"></script>
         <title>Game Examination</title>
     </head>
-    <header>
-        
-    </header>
     <body>
         <app-root class="h-100 w-100 align-items-center"></app-root>
     </body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.min.js"></script>
-        <div class="headerdiv">
-            <app-hsbc-header-bar>Test Game Examination</app-hsbc-header-bar>
+    <script src=""></script>
+    <div class="contentdiv">
+        <div class="header">
+            <div class="sides">
+                <a href="#" class="logo" onclick="">GAME LOGIN</a>
+            </div>
+            <div class="sides">
+                <!--Navigation Background Part Starts -->    
+                <div id="navigation-bg">    
+                    <!--Navigation Part Starts -->    
+                    <div id="navigation">    
+                        <ul class="mainMenu">    
+                            <li><a href="" class="selectMenu" title="Home">Home</a></li>    
+                            <li><a href="" title="County Board">County Board</a></li>    
+                            <li><a href="" title="Departments">Departments</a></li>    
+                            <li><a href="" title="Staff Resources">Staff Resources</a></li>    
+                            <li><a href="" title="Employment">Employment</a></li>    
+                            <li><a href="" title="Directory">Directory</a></li>    
+                            <li><a href="" title="Online Documents">Documents</a></li>
+                        </ul>
+                    <br class="spacer" />    
+                    </div>    
+                    <!--Navigation Part Ends -->    
+                </div>    
+                <!--Navigation Background Part Ends --> 
+            </div>
+            <div class="info">
+                <h4><a href="#category">GAME DESIGN</a></h4>
+                <h1 class="GameTitle">GAME EXAMINATION</h1>
+                <div class="meta">
+                    <a  href="https://github.com/ZhayNaz" target="_b" class="author"></a><br>
+                    By <a href="" target="_b">Joseph Garcia</a> on November 11, 2023
+                </div>
+            </div>
         </div>
-
-        <div class="contentdiv">
-        <div>
-            <router-outlet></router-outlet>
-        </div>
-        </div>
-        <footer class="footerdiv">
-            <app-application-footer>Group Members</app-application-footer>
-        </footer>
+        <section class="content">
+            <p>MANOK</p>
+            <p align="center"><a href="https://www.facebook.com/nekonekotep/" class="btn twtr" target="_b">Follow me on Facebook</a>
+            </p>
+        </section>
+    </div>
+    <footer class="footerdiv">
+        <app-application-footer>Group Members</app-application-footer>
+    </footer>
 </html>
